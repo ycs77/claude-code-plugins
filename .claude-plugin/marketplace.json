@@ -5,5 +5,13 @@
     "name": "Lucas Yang",
     "email": "yangchenshin77@gmail.com"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "ycs77-dev",
+      "description": "輔助開發的好用 AI 工具包",
+      "version": "1.0.0",
+      "source": "./plugins/dev",
+      "category": "development"
+    }
+  ]
 }
