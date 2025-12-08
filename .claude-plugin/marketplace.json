@@ -1,0 +1,9 @@
+{
+  "name": "ycs77",
+  "description": "A collection of plugins for Claude Code",
+  "owner": {
+    "name": "Lucas Yang",
+    "email": "yangchenshin77@gmail.com"
+  },
+  "plugins": []
+}
