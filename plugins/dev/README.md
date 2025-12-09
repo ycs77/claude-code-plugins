@@ -6,10 +6,10 @@
 
 此插件提供強大的指令來增強開發體驗：
 
-- **📋 建立計畫**: 搭配 Claude Code Plan Mode 來流暢地建立詳細的實作計畫
-- **💬 Commit 訊息**: 自動生成符合規範的 Git commit 訊息
+- 📋 **建立計畫**: 搭配 Claude Code Plan Mode 來流暢地建立詳細的實作計畫
+- 💬 **Commit 訊息**: 自動生成符合規範的 Git commit 訊息
 
-## 安裝
+## 安裝插件
 
 在 Claude Code 中安裝插件：
 
@@ -87,10 +87,17 @@
 2. **提供上下文**：如果變更較複雜，請添加簡短的上下文作為參數
 3. **提交前審查**：使用前務必審查生成的訊息
 
+## 版本歷史
+
+### v1.0.0
+- 初始版本
+- 支援 Make Plan 指令
+- 支援 Commit Message 指令
+
 ## 作者
 
 Lucas Yang (yangchenshin77@gmail.com)
 
 ## 授權
 
-MIT
+MIT License

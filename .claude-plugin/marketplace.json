@@ -1,6 +1,6 @@
 {
   "name": "ycs77",
-  "description": "A collection of plugins for Claude Code",
+  "description": "這裡是我常用的 Claude Code 插件倉庫，可能會有各種不同類型的插件",
   "owner": {
     "name": "Lucas Yang",
     "email": "yangchenshin77@gmail.com"
@@ -11,6 +11,13 @@
       "description": "輔助開發的好用 AI 工具包",
       "version": "1.0.0",
       "source": "./plugins/dev",
+      "category": "development"
+    },
+    {
+      "name": "notification-basic-win",
+      "description": "當 Claude Code 執行結束或停止時，自動播放提示音通知用戶 (Windows OS)",
+      "version": "1.0.0",
+      "source": "./plugins/notification/basic-win",
       "category": "development"
     }
   ]
