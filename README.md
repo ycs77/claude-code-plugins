@@ -2,7 +2,7 @@
 
 這裡是我常用的 Claude Code 插件倉庫，可能會有各種不同類型的插件。
 
-## Plugins
+## 插件列表
 
 | Name | Description | Contents |
 |------|-------------|----------|
