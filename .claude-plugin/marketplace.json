@@ -12,20 +12,6 @@
       "version": "1.0.0",
       "source": "./plugins/dev",
       "category": "development"
-    },
-    {
-      "name": "notification-basic-win",
-      "description": "當 Claude Code 執行結束或停止時，自動播放提示音通知用戶 (Windows OS)",
-      "version": "1.0.0",
-      "source": "./plugins/notification/basic-win",
-      "category": "development"
-    },
-    {
-      "name": "notification-basic-mac",
-      "description": "當 Claude Code 執行結束或停止時，自動播放提示音通知用戶 (macOS)",
-      "version": "1.0.0",
-      "source": "./plugins/notification/basic-mac",
-      "category": "development"
     }
   ]
 }
