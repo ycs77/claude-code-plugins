@@ -7,7 +7,7 @@
 此插件提供強大的指令來增強開發體驗：
 
 - 📋 **建立計畫**: 搭配 Claude Code Plan Mode 來流暢地建立詳細的實作計畫
-- 💬 **Commit 訊息**: 自動生成符合規範的 Git commit 訊息
+- 💬 **Commit 訊息**: 生成精確、技術導向且簡潔的 Git commit 訊息
 
 ## 安裝插件
 
@@ -43,7 +43,7 @@
 
 ### `/ycs77-dev:commit-message`
 
-生成符合慣例提交規範的專業 Git commit 訊息。
+生成高解析度、技術導向、精確且簡潔的 Git commit 訊息。
 
 **使用方式：**
 
@@ -59,11 +59,11 @@
 
 **功能特點：**
 - 使用英文生成 commit 訊息
-- 遵循慣例提交格式
-- 支援多種變更類型：Add、Update、Remove、Fix、Improve、Optimize
-- 使用祈使語氣（"Add feature" 而非 "Added feature"）
-- 未提供上下文時會自動分析 git diff
-- 保持訊息簡潔明確（主旨在 72 字元以內）
+- 採用祈使語氣（"Add feature" 而非 "Added feature"）
+- 優先使用描述性類型：Add、Update、Remove、Fix、Improve、Optimize
+- 不包含多餘的陳述，僅輸出 commit 標題和必要的正文
+- 基於 git diff 生成高解析度且技術導向的訊息
+- 精確且簡潔的表達方式
 
 **變更類型：**
 - **Add**: 新增功能
