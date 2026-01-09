@@ -9,7 +9,7 @@
     {
       "name": "ycs77-dev",
       "description": "輔助開發的好用 AI 工具包",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./plugins/dev",
       "category": "development"
     }

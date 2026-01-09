@@ -94,6 +94,9 @@
 - 支援 Make Plan 指令
 - 支援 Commit Message 指令
 
+### v1.0.1
+- 優化 Commit Message 指令輸出格式說明
+
 ## 作者
 
 Lucas Yang (yangchenshin77@gmail.com)
