@@ -6,7 +6,7 @@
 
 | Name | Description | Contents |
 |------|-------------|----------|
-| [ycs77-dev](./plugins/dev) | 輔助開發的好用 AI 工具包 | **Command:** `/ycs77-dev:make-plan` - 搭配 Claude Code Plan Mode 來流暢地建立詳細的實作計畫<br />**Command:** `/ycs77-dev:commit-message` - 生成精確、技術導向且簡潔的 Git commit 訊息 |
+| [ycs77-dev](./plugins/dev) | Lucas 的 AI 輔助開發工具包 | **Command:** `/ycs77-dev:make-plan` - 搭配 Claude Code Plan Mode 來流暢地建立詳細的實作計畫<br />**Command:** `/ycs77-dev:commit-message` - 生成精確、技術導向且簡潔的 Git commit 訊息 |
 
 ## 在 Claude Code 中安裝
 
