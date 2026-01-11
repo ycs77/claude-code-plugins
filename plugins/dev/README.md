@@ -97,6 +97,9 @@
 ### v1.0.1
 - 優化 Commit Message 指令輸出格式說明
 
+### v1.0.2
+- 更新描述文字
+
 ## 作者
 
 Lucas Yang (yangchenshin77@gmail.com)

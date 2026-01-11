@@ -9,7 +9,7 @@
     {
       "name": "ycs77-dev",
       "description": "Lucas 的 AI 輔助開發工具包",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "source": "./plugins/dev",
       "category": "development"
     }
