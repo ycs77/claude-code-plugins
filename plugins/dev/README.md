@@ -19,20 +19,20 @@
 
 ## 指令說明
 
-### `/ycs77-dev:make-plan`
+### `/ycs77-dev:plan`
 
 流暢地為您的專案或功能建立詳細的實作計畫。與 Claude Code 的 Plan Mode 無縫整合，幫助您思考複雜的實作方案。
 
 **使用方式：**
 
 ```bash
-/ycs77-dev:make-plan [專案或功能描述]
+/ycs77-dev:plan [專案或功能描述]
 ```
 
 **範例：**
 
 ```bash
-/ycs77-dev:make-plan 使用 JWT tokens 新增使用者認證系統
+/ycs77-dev:plan 使用 JWT tokens 新增使用者認證系統
 ```
 
 **功能特點：**
@@ -75,7 +75,7 @@
 
 ## 使用技巧
 
-### Make Plan 指令
+### Plan 指令
 
 1. **具體明確**：提供清晰的上下文說明您想要建立什麼
 2. **相信流程**：必要時指令會提出後續問題
@@ -99,6 +99,9 @@
 
 ### v1.0.2
 - 更新描述文字
+
+### v1.1.0
+- 將 `/ycs77-dev:make-plan` 指令更名為 `/ycs77-dev:plan`
 
 ## 作者
 
