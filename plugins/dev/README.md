@@ -1,4 +1,4 @@
-# Lucas 的 AI 輔助開發工具包
+# Lucas Yang 的 AI 輔助開發工具包
 
 輔助開發的 AI 工具包，優化我在 Claude Code 中的開發工作流程。
 
@@ -6,7 +6,7 @@
 
 此插件提供以下指令來增強開發體驗：
 
-- 📋 **建立計畫**: 搭配 Claude Code Plan Mode 來流暢地建立詳細的實作計畫
+- 📋 **建立計畫**: 依照 Lucas Yang 的規劃習慣來建立實作計畫
 
 ## 安裝插件
 
@@ -20,7 +20,7 @@
 
 ### `/ycs77-dev:plan`
 
-流暢地為您的專案或功能建立詳細的實作計畫。與 Claude Code 的 Plan Mode 無縫整合，幫助您思考複雜的實作方案。
+依照 Lucas Yang 的規劃習慣來建立實作計畫。與 Claude Code 的 Plan Mode 無縫整合，幫助您思考複雜的實作方案。
 
 **使用方式：**
 
@@ -35,10 +35,11 @@
 ```
 
 **功能特點：**
-- 強調避免過度設計
+- 自動進入 Plan Mode 建立計畫
 - 使用繁體中文生成計畫
+- 列出開發任務列表，並優化為並行 Subagents 執行
+- 開發完成後自動同步更新專案 Memory 檔案 (CLAUDE.md / AGENTS.md)
 - 需要時會使用 AskUserQuestion 進行確認
-- 結構化的實作規劃方法
 
 ## 使用技巧
 
@@ -66,6 +67,11 @@
 
 ### v1.2.0
 - 移除 `/ycs77-dev:commit-message` 指令（可使用 [ycs77/skills](https://github.com/ycs77/skills) 的 commit-message skill 替代）
+
+### v1.3.0
+- 新增自動進入 Plan Mode 功能
+- 計畫中列出開發任務列表 (Task List)，支援並行 Subagents 執行
+- 開發完成後自動同步更新專案 Memory 檔案 (CLAUDE.md / AGENTS.md)
 
 ## 作者
 
