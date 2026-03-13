@@ -6,7 +6,7 @@
 
 | Name | Description | Contents |
 |------|-------------|----------|
-| [ycs77-dev](./plugins/dev) | Lucas 的 AI 輔助開發工具包 | **Command:** `/ycs77-dev:plan` - 依照 Lucas Yang 的規劃習慣來建立實作計畫 |
+| [ycs77](./plugins/dev) | Lucas 的 AI 輔助開發工具包 | **Command:** `/ycs77:plan` - 依照 Lucas Yang 的規劃習慣來建立實作計畫 |
 
 ## 在 Claude Code 中安裝
 

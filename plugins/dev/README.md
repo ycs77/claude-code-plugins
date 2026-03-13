@@ -13,25 +13,25 @@
 在 Claude Code 中安裝插件：
 
 ```
-/plugin install ycs77-dev@ycs77
+/plugin install ycs77@ycs77
 ```
 
 ## 指令說明
 
-### `/ycs77-dev:plan`
+### `/ycs77:plan`
 
 依照 Lucas Yang 的規劃習慣來建立實作計畫。與 Claude Code 的 Plan Mode 無縫整合，幫助您思考複雜的實作方案。
 
 **使用方式：**
 
 ```bash
-/ycs77-dev:plan [專案或功能描述]
+/ycs77:plan [專案或功能描述]
 ```
 
 **範例：**
 
 ```bash
-/ycs77-dev:plan 使用 JWT tokens 新增使用者認證系統
+/ycs77:plan 使用 JWT tokens 新增使用者認證系統
 ```
 
 **功能特點：**
@@ -72,6 +72,9 @@
 - 新增自動進入 Plan Mode 功能
 - 計畫中列出開發任務列表 (Task List)，支援並行 Subagents 執行
 - 開發完成後自動同步更新專案 Memory 檔案 (CLAUDE.md / AGENTS.md)
+
+### v2.0.0
+- 將 `ycs77-dev` 套件更名為 `ycs77`，以簡化指令名稱
 
 ## 作者
 
